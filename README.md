@@ -1,0 +1,2 @@
+# DTMWAGT
+Little Thought Experiment
