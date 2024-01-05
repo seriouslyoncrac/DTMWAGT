@@ -21,6 +21,7 @@ header {
 /* Style the navigation menu */
 nav ul {
   background-color: #444; /* Dark Gray Background */
+  list-style-type: none; /* Remove bullet points */
   overflow: hidden;
 }
 
@@ -30,13 +31,14 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: white;
+  color: #fff; /* White Text */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: background-color 0.3s; /* Smooth transition effect */
 }
 
-/* Change color on hover */
+/* Change background color on hover */
 nav ul li a:hover {
   background-color: #555; /* Slightly Darker Gray */
 }
