@@ -1,14 +1,14 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #000000; /* Oil Black */
-  color: #FFFFFF; /* White text */
+  color: #FFFFFF;
   margin: 0;
   padding: 0;
 }
 
 header {
   background-color: #8B0000; /* Blood Red */
-  color: #FFFFFF; /* White text */
+  color: #FFFFFF;
   text-align: center;
   padding: 1em;
 }
@@ -18,16 +18,16 @@ main {
 }
 
 .segment {
-  background-color: #333333; /* Dark Gray */
-  color: #FFFFFF; /* White text */
+  background-color: #333333;
+  color: #FFFFFF;
   padding: 2em;
   margin-bottom: 2em;
   border-radius: 8px;
 }
 
 .btn {
-  background-color: #8B0000; /* Blood Red */
-  color: #FFFFFF; /* White text */
+  background-color: #8B0000;
+  color: #FFFFFF;
   border: none;
   padding: 10px 20px;
   text-align: center;
@@ -43,8 +43,8 @@ main {
 }
 
 footer {
-  background-color: #333333; /* Dark Gray */
-  color: #FFFFFF; /* White text */
+  background-color: #333333;
+  color: #FFFFFF;
   text-align: center;
   padding: 1em;
 }
