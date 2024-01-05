@@ -6,8 +6,9 @@ body, h1, h2, ul {
 
 /* Set a background color for the whole page */
 body {
-  background-color: #f4f4f4; /* Light Gray Background */
+  background-color: #000000; /* Oil Black Background */
   font-family: Arial, sans-serif;
+  color: #FFFFFF; /* White Text */
 }
 
 /* Style the header */
@@ -20,7 +21,7 @@ header {
 
 /* Style the navigation menu */
 nav ul {
-  background-color: #444; /* Dark Gray Background */
+  background-color: #8B0000; /* Blood Red Background */
   list-style-type: none; /* Remove bullet points */
   overflow: hidden;
 }
@@ -40,7 +41,7 @@ nav ul li a {
 
 /* Change background color on hover */
 nav ul li a:hover {
-  background-color: #555; /* Slightly Darker Gray */
+  background-color: #A52A2A; /* Darker Blood Red */
 }
 
 /* Style the main content */
@@ -51,7 +52,7 @@ main {
 /* Style the footer */
 footer {
   background-color: #333; /* Dark Gray Background */
-  color: white;
+  color: #fff; /* White Text */
   text-align: center;
   padding: 1rem;
 }
