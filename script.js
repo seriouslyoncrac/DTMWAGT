@@ -3,7 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
   buttons.forEach((button) => {
     button.addEventListener('click', function() {
-      alert('Showcasing content for ' + button.parentElement.id);
+      // Toggle content visibility for the respective segment
+      const content = button.nextElementSibling; // Get the next sibling element (content div)
+      
+      if (content.style.display === 'none' || content.style.display === '') {
+        content.style.display = 'block'; // Show content
+      } else {
+        content.style.display = 'none'; // Hide content
+      }
     });
   });
 });
