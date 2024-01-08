@@ -32,7 +32,55 @@ main {
   background-color: #A52A2A; /* Darker Blood Red Background */
 }
 
-/* Styling for Contact Form */
+/* Contact Form Styling */
+
+/* Set maximum width, center-align, and add padding around the form */
 form {
-  /* Add styling for the form fields (Name, Email, Message) */
+  max-width: 600px; 
+  margin: auto; 
+  padding: 20px; 
+  background-color: #333333; /* Dark Gray Background */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Style for the form title */
+form h2 {
+  color: #8B0000; /* Blood Red Text */
+  margin-bottom: 20px; /* Spacing below form title */
+}
+
+/* Style for form labels */
+form label {
+  display: block; /* Display labels as blocks */
+  margin-bottom: 8px; /* Spacing below each label */
+  color: #FFFFFF; /* White Text for Labels */
+}
+
+/* Style for input fields and textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%; /* Full width for input and textarea */
+  padding: 10px; /* Padding inside input and textarea */
+  margin-bottom: 16px; /* Spacing below each input and textarea */
+  border: 1px solid #8B0000; /* Blood Red Border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #444444; /* Darker Gray Background */
+  color: #FFFFFF; /* White Text */
+}
+
+/* Style for the submit button */
+form input[type="submit"] {
+  background-color: #8B0000; /* Blood Red Background */
+  color: #FFFFFF; /* White Text */
+  padding: 10px 20px; /* Padding inside button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for submit button */
+form input[type="submit"]:hover {
+  background-color: #A52A2A; /* Darker Blood Red Background on Hover */
 }
