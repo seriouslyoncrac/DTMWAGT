@@ -1,3 +1,12 @@
+// JavaScript for toggling section visibility
+function toggleSection(sectionId) {
+  var section = document.getElementById(sectionId);
+  if (section.style.display === "none" || section.style.display === "") {
+    section.style.display = "block";
+  } else {
+    section.style.display = "none";
+  }
+}
 document.addEventListener('DOMContentLoaded', function() {
   const buttons = document.querySelectorAll('.btn');
   
