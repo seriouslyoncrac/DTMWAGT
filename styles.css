@@ -1,58 +1,38 @@
-/* Reset some default styles */
-body, h1, h2, ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* Set a background color for the whole page */
+/* General Styling */
 body {
-  background-color: #000000; /* Oil Black Background */
   font-family: Arial, sans-serif;
+  background-color: #000000; /* Oil Black */
   color: #FFFFFF; /* White Text */
 }
 
-/* Style the header */
 header {
-  background-color: #333; /* Dark Gray Background */
-  color: #fff; /* White Text */
+  background-color: #333333; /* Dark Gray */
   padding: 1rem;
-  text-align: center;
 }
 
-/* Style the navigation menu */
-nav ul {
-  background-color: #8B0000; /* Blood Red Background */
-  list-style-type: none; /* Remove bullet points */
-  overflow: hidden;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a {
-  display: block;
-  color: #fff; /* White Text */
-  text-align: center;
-  padding: 14px 16px;
+nav a {
+  color: #FFFFFF; /* White */
+  margin: 0 15px;
   text-decoration: none;
-  transition: background-color 0.3s; /* Smooth transition effect */
 }
 
-/* Change background color on hover */
-nav ul li a:hover {
-  background-color: #A52A2A; /* Darker Blood Red */
+nav a:hover {
+  text-decoration: underline;
 }
 
-/* Style the main content */
 main {
-  padding: 20px;
+  padding: 2rem;
 }
 
-/* Style the footer */
-footer {
-  background-color: #333; /* Dark Gray Background */
-  color: #fff; /* White Text */
-  text-align: center;
+/* Styling for Hidden Section */
+#hiddenSection {
+  margin-top: 2rem;
   padding: 1rem;
+  border: 1px solid #333333; /* Dark Gray */
+  background-color: #444444; /* Darker Gray */
+}
+
+/* Styling for Contact Form */
+form {
+  /* Add styling for the form fields (Name, Email, Message) */
 }
