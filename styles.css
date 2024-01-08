@@ -1,17 +1,17 @@
 /* General Styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #000000; /* Oil Black */
+  background-color: #000000; /* Oil Black Background */
   color: #FFFFFF; /* White Text */
 }
 
 header {
-  background-color: #333333; /* Dark Gray */
+  background-color: #8B0000; /* Blood Red Background for Header */
   padding: 1rem;
 }
 
 nav a {
-  color: #FFFFFF; /* White */
+  color: #FFFFFF; /* White Text */
   margin: 0 15px;
   text-decoration: none;
 }
@@ -28,8 +28,8 @@ main {
 #hiddenSection {
   margin-top: 2rem;
   padding: 1rem;
-  border: 1px solid #333333; /* Dark Gray */
-  background-color: #444444; /* Darker Gray */
+  border: 1px solid #8B0000; /* Blood Red Border */
+  background-color: #A52A2A; /* Darker Blood Red Background */
 }
 
 /* Styling for Contact Form */
