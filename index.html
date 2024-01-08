@@ -2,35 +2,48 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>My Coding Portfolio</title>
+<title>My Coding Portfolio - Home</title>
 <link rel="stylesheet" href="styles.css">
+<script src="scripts.js" defer></script>
 </head>
 <body>
 
+<!-- Sticky Navigation Bar -->
 <header>
   <h1>Welcome to My Coding Portfolio</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 </header>
 
-<nav>
-  <ul>
-    <!-- Navigation links to showcase pages -->
-    <li><a href="html-css-js.html">HTML/CSS/JS</a></li>
-    <li><a href="java.html">Java</a></li>
-    <li><a href="python.html">Python</a></li>
-    <li><a href="ruby.html">Ruby</a></li>
-  </ul>
-</nav>
-
+<!-- Main Content -->
 <main>
   <section>
-    <h2>About Me</h2>
-    <p>Introduction, skills, experience, and other details about you...</p>
-    <!-- Add additional content, sections, or details about you or your portfolio -->
+    <h2>Welcome!</h2>
+    <p>Explore my coding projects, skills, and experience!</p>
   </section>
-  
-  <!-- Add more sections, content, or details as needed -->
+
+  <!-- Toggle Section -->
+  <button onclick="toggleSection('hiddenSection')">Toggle Hidden Section</button>
+  <div id="hiddenSection" style="display:none;">
+    <h2>Hidden Section</h2>
+    <p>This is a hidden section that can be toggled!</p>
+  </div>
 </main>
 
+<!-- Basic Contact Form -->
+<section>
+  <h2>Contact Me</h2>
+  <form>
+    <!-- Form fields (Name, Email, Message) -->
+  </form>
+</section>
+
+<!-- Footer -->
 <footer>
   <p>&copy; 2024 My Coding Portfolio. All rights reserved.</p>
 </footer>
